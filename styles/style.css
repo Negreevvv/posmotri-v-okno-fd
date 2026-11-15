@@ -86,6 +86,7 @@ ol {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -175,6 +176,7 @@ ol {
 }
 
 .button {
+  block-size: 33px;
   border: 1px solid #fff;
   color: #fff;
   font-family: inherit;
@@ -205,13 +207,11 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   inline-size: 194px;
-  block-size: 33px;
 }
 
 .more-button {
   flex-shrink: 0;
   inline-size: 100%;
-  block-size: 33px;
 }
 
 .content__details {
@@ -265,7 +265,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #232121;
+  background-color: #545050;
 }
 
 .content__card-link:active {
